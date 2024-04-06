@@ -449,7 +449,7 @@ class VisionMamba(nn.Module,
         return x_clip
 
 
-@register_model
+# @register_model
 def videomamba_middle_pretrain(pretrained=False, **kwargs):
     model = VisionMamba(
         patch_size=16, 
